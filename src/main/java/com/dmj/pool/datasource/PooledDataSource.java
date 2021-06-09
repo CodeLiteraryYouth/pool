@@ -94,7 +94,6 @@ public class PooledDataSource extends AbstractPooledDataSourceConfig {
         if(testOnReturn) {
             checkValid(pooledConnection);
         }
-
         // 设置为不繁忙
         pooledConnection.setBusy(false);
         log.debug("归还连接，状态设置为不繁忙");
