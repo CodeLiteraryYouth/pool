@@ -23,20 +23,7 @@
 
 # 快速开始
 
-## 需要
 
-- jdk 1.7+
-
-- maven 3.x+
-
-## maven 引入
-
-```xml
-<dependency>
-    <groupId>com.github.houbb</groupId>
-    <artifactId>jdbc-pool</artifactId>
-    <version>1.5.0</version>
-</dependency>
 ```
 
 ## 测试代码
